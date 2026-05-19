@@ -1,4 +1,4 @@
-# Project Explorer - React + TypeScript + Vite
+# Project Name - Project Explorer
 
 A modern React application built with TypeScript and Vite, featuring product cards and search functionality.
 
@@ -6,22 +6,19 @@ A modern React application built with TypeScript and Vite, featuring product car
 
 This is a React-based web application that showcases products with an interactive search interface. The project is built using modern web technologies for optimal performance and developer experience.
 
-### Key Features
+### Features
 
-- **Fast Development**: Built with Vite for instant server start and module refresh
-- **Type Safety**: Full TypeScript support for reliable code
-- **Component-Based**: Reusable React components (ProductCards, SearchBar)
-- **API Integration**: Axios for seamless HTTP requests
-- **Code Quality**: ESLint configuration for consistent code standards
+1. Product listing
+2. Search Products
+3. Filter by categories
+4. Sort by price
 
 ## Tech Stack
 
-- **Frontend Framework**: React 19.2.6
-- **Language**: TypeScript
-- **Build Tool**: Vite 8.0.12
-- **HTTP Client**: Axios 1.16.1
-- **Linter**: ESLint 10.3.0
-- **Package Manager**: npm
+- React 19.2.6
+- TypeScript
+- Vite 8.0.12
+- CSS
 
 ## Project Structure
 
@@ -83,13 +80,6 @@ Start the development server with hot module replacement:
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173` (or the next available port).
-
-**Features:**
-- Automatic browser refresh on code changes
-- Fast module reloading
-- Detailed error messages in browser and console
-
 ### Building for Production
 
 Create an optimized production build:
@@ -113,30 +103,6 @@ npm run preview
 
 This allows you to test the production build before deployment.
 
-### Code Quality
-
-Run ESLint to check for code quality issues:
-
-```bash
-npm run lint
-```
-
-## Available Scripts
-
-| Script | Command | Purpose |
-|--------|---------|---------|
-| **dev** | `npm run dev` | Start development server with HMR |
-| **build** | `npm run build` | Create production build |
-| **lint** | `npm run lint` | Run ESLint to check code quality |
-| **preview** | `npm run preview` | Preview production build locally |
-
-## Configuration Files
-
-- **vite.config.ts** - Vite build and dev server configuration
-- **tsconfig.json** - TypeScript compiler options
-- **eslint.config.js** - ESLint rules and plugins
-- **index.html** - HTML entry point for the application
-
 ## Components
 
 ### ProductCards.tsx
@@ -159,17 +125,6 @@ Provides search functionality to filter and find products. Styled with `seacrh_b
 - `@vitejs/plugin-react` - Vite plugin for React fast refresh
 - Various type definitions for React and Node.js
 
-## Common Issues & Solutions
-
-### Port Already in Use
-If port 5173 is already in use, Vite will automatically use the next available port.
-
-### Module Not Found Errors
-Run `npm install` to ensure all dependencies are installed.
-
-### TypeScript Errors
-Ensure your IDE has TypeScript support enabled. Restart your development server if needed.
-
 ## Next Steps
 
 1. Start the development server: `npm run dev`
@@ -182,12 +137,3 @@ Ensure your IDE has TypeScript support enabled. Restart your development server 
 1. Run `npm run build` to create a production build
 2. The `dist/` folder contains the optimized files ready for deployment
 3. Deploy the contents of the `dist/` folder to your hosting service
-
-## Additional Resources
-
-- [React Documentation](https://react.dev)
-- [Vite Documentation](https://vitejs.dev)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs)
-- [Axios Documentation](https://axios-http.com)
-
----
